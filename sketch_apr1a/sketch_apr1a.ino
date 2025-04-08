@@ -24,13 +24,13 @@ void loop() {
 
 void reactionGame() {
   lcd.clear();
-  lcd.print("ready ?");
+  lcd.print("kadiatou ?");
 
   int rand = random(3000, 6000);
   delay(rand);
   
   lcd.clear();
-  lcd.print("go");
+  lcd.print("1234");
   
   unsigned long startTime = millis();
 
@@ -39,7 +39,7 @@ void reactionGame() {
   unsigned long reactionTime = millis()-startTime;
 
   lcd.clear();
-  lcd.print("Your time:");
+  lcd.print("ABCD:");
   lcd.setCursor(0, 1);      
   lcd.print(reactionTime);  
   lcd.print(" ms");
