@@ -5,7 +5,7 @@ Reaction time game with LCD
    Arduino Uno, 16x2 LCD display, 10k resitor, wires, push button, breadboard
 
      Connections: 
-Arduino Digital Pin 7 (RS) ** to LCD RS pin
+Arduino Digital Pin 7 (RS) to LCD RS pin
 Digital Pin 8  to LCD Enable (E) pin
 Arduino Digital Pin 9 to LCD D4 pin
 Arduino Digital Pin 10 to LCD D5 pin
